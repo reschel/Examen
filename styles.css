@@ -1,0 +1,32 @@
+echo {
+  font-family: Arial, sans-serif;
+}
+.gameboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+.celeste {
+  background-color: skyblue;
+}
+.violeta {
+  background-color: violet;
+}
+.naranja {
+  background-color: orange;
+}
+.verde {
+  background-color: green;
+}
+.btn-start {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
